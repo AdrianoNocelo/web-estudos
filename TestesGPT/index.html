@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animação de Título</title>
+<style>
+  body {
+    overflow-x: hidden; /* Evita rolagem horizontal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2em;
+    position: relative;
+    animation: moverHorizontal 5s linear infinite;
+  }
+
+  @keyframes moverHorizontal {
+    0% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>Adriano Nocelo</h1>
+
+</body>
+</html>
