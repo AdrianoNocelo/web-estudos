@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: url(assets/header-banner.png);
+    background-size: cover;
+    padding: 4rem 1.5rem 2rem;
+    color: #ffffff;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 3.375rem;
+}
+
+.container {
+    padding: 0 1.5rem;
+}
+
+.app-section {
+}
+
+.img-muck-section {
+    width: 100%;
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.work-section .work-section-description {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.work-section .work-section-subtitle {
+    font-size: 0.875rem;
+    font-weight: 200;
+}
+
+.work-section .work-section-description-container {
+    margin-bottom: 1.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px #1f1f1f solid;
+}
