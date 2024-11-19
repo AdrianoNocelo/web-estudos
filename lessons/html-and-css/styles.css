@@ -15,12 +15,9 @@ header h1 {
     font-weight: 400;
     font-size: 3.375rem;
 }
-
+   /*A classe container serve pra colocar o padding na horizontal*/
 .container {
     padding: 0 1.5rem;
-}
-
-.app-section {
 }
 
 .img-muck-section {
