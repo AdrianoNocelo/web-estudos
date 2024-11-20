@@ -15,13 +15,49 @@ header h1 {
     font-weight: 400;
     font-size: 3.375rem;
 }
+
+header .header-down-arrow {
+   margin-top: 1rem;
+}
    /*A classe container serve pra colocar o padding na horizontal*/
 .container {
     padding: 0 1.5rem;
 }
 
+.highlight-text-blue {
+   color: #1530EC;
+   font-style: italic;
+}
+
 .img-muck-section {
     width: 100%;
+}
+
+.muck-project-section h3 {
+   font-size: 1.6rem;
+   font-weight: 400;
+   margin-bottom: 1rem;
+}
+
+.muck-project-section p {
+   font-weight: 400;
+   margin-bottom: 2rem;
+}
+
+.project-card {
+    margin-top: 2.5rem;
+}
+
+.project-card .img-muck-section {
+   height: 225px;
+   width: 100%;
+   object-fit: cover;
+}
+
+.project-card h4 {
+   font-size: 1.5rem;
+   margin-top: 1.5rem;
+   font-weight: 400;
 }
 
 .section-title {
@@ -31,6 +67,10 @@ header h1 {
     text-transform: uppercase;
     display: flex;
     gap: 0.5rem;
+}
+
+.work-section {
+    margin-bottom: 1.5rem;
 }
 
 .work-section .work-section-description {

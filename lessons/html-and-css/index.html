@@ -7,14 +7,22 @@
     <body>
         <header>
             <!-- Teremos apenas um h1 por página e sera o conteúdo principal -->
-            <h1> 
+            <h1>
+               <!--
+                 Não é legal usar o p para quebrar linha aqui
+                 pq não respeita a semântica do html, nesse caso
+                 é melhor um <br />
                  <p>Bringing</p>
-                 <p>your ideas</p>  <!-- Mudei até eu códogo mlk preguiçoso do caraio -->
-                 <p>to life</p> 
+                 <p>your ideas</p>  <!-- Mudei até eu código mlk preguiçoso do caraio
+                 <p>to life</p>
+                -->
+                Bringing <br />
+                your ideas <br />  <!-- Mudei até eu códogo mlk preguiçoso do caraio -->
+                to life
             </h1>
-            <h2>
+            <div class="header-down-arrow">
                 <img src="assets/title-setainferior.svg"> <!-- Botei até a setinha de cria copiando o codigo dela no site la que nem lembrava q dava pra fazer, tive que olhar o coidigo da sua star e deduzir o que tu tinha feito -->
-            </h2>
+            </div>
         </header>
 
         <section class="app-section work-section">
@@ -25,7 +33,7 @@
                 </h2>
                 <div class="work-section-description-container">
                     <p class="work-section-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Lorem ipsum dolor sit amet, <span class="highlight-text-blue ">consectetur</span> adipiscing elit.
                         Sed eget pulvinar ligula. Aliquam quam mauris, iaculis
                         et justo in, vehicula pellentesque felis.
                     </p>
@@ -34,9 +42,10 @@
                     </span>
                 </div>
             </div>
-            <div>
+
+            <div class="muck-project-section">
                 <div class="container">
-                    <h3>Muck Project <img src="assets/tittle-setasuperiordieita.svg"></h3> <!-- É meu fih o pai ta chato kkkkkk -->
+                    <h3>Muck <br/> Project <img src="assets/tittle-setasuperiordieita.svg"></h3> <!-- É meu fih o pai ta chato kkkkkk -->
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed eget pulvinar ligula. Aliquam quam mauris, iaculis
@@ -44,10 +53,30 @@
                     </p>
                 </div>
                 <img class="img-muck-section" src="./assets/muck-banner.webp" />
+                <div class="container">
+                    <div class="project-card">
+                        <img class="img-muck-section" src="./assets/MuckFuturisca.webp" />
+                        <h4> Muck Project 2 <img src="./assets/tittle-setasuperiordieita.svg"></h4>
+                    </div>
+
+                    <div class="project-card">
+                        <img class="img-muck-section" src="./assets/muck-stone-age.webp" />
+                        <h4> Muck Project 3 <img src="./assets/tittle-setasuperiordieita.svg"></h4>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <section>
+            <!-- TODO: COMPLETAR SECTION DE SERVIÇOS -->
+        </section>
+
+        <section>
+                   <!-- TODO: COMEÇAR SECTION DE ABOUT ME -->
+        </section>
+
         <footer>
+            <!-- TODO: FINALIZAR FOOTER -->
             <!-- igual a div, mas para texto -->
             <span> Copyright © 2023 | Adriano Nocelo </span>
         </footer>
