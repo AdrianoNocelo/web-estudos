@@ -7,7 +7,7 @@
 header {
     background-image: url(assets/header-banner.png);
     background-size: cover;
-    padding: 4rem 1.5rem 2rem;
+    padding: 4rem 0 2rem;
     color: #ffffff;
 }
 
@@ -19,9 +19,11 @@ header h1 {
 header .header-down-arrow {
    margin-top: 1rem;
 }
-   /*A classe container serve pra colocar o padding na horizontal*/
+
+/*A classe container serve pra colocar o padding na horizontal*/
 .container {
-    padding: 0 1.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .highlight-text-blue {
@@ -108,4 +110,60 @@ header .header-down-arrow {
 .barra {
     display: inline-flex;
     align-items: center;
+}
+
+.scroll-to-explore {
+    width: 18.5rem;
+    display: none;
+}
+
+.title-header-align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*
+Conteúdo sobre media query:
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
+Aplicar regras enquanto a tela for menor ou igual 600px
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+Aplicar regras enquanto a tela for maior ou igual 600px
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+Mobile first:
+O site é primeiro desenvolvido para mobile e depois fazemos as regras para desktop
+
+Site responsivo:
+É um site que se adapta tanto para o mobile quanto para o desktop
+*/
+@media only screen and (min-width: 600px) {
+    header h1 {
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    header h1 {
+        font-size: 6.5rem;
+    }
+
+    .container {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+    .scroll-to-explore {
+        display: block;
+    }
 }
