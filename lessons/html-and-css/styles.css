@@ -89,3 +89,23 @@ header .header-down-arrow {
     padding-bottom: 2rem;
     border-bottom: 1px #1f1f1f solid;
 }
+
+.banner2 {
+    background-image: url(assets/header-banner.png);
+    background-size: cover;
+    padding: 4rem 1.5rem 2rem;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.Services {
+    padding-bottom: 2rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 200
+}
+
+.barra {
+    display: inline-flex;
+    align-items: center;
+}
