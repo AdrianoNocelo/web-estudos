@@ -46,8 +46,15 @@ header .header-down-arrow {
    margin-bottom: 2rem;
 }
 
-.project-card {
+.muck-project-section-secondary-works {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
     margin-top: 2.5rem;
+}
+
+.muck-project-section-secondary-works .project-card {
+    flex: 1;
 }
 
 .project-card .img-muck-section {
@@ -141,7 +148,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+
 }
 
 .contact-info span{
@@ -183,6 +190,15 @@ Site responsivo:
     header h1 {
         font-size: 4.5rem;
     }
+
+    /* No desktop os projetos secundarios do muck devem ficar ordenados em linha */
+    .muck-project-section-secondary-works {
+        flex-direction: row;
+    }
+
+    .project-card .img-muck-section {
+        height: 300px
+    }
 }
 
 @media only screen and (min-width: 900px) {
@@ -197,5 +213,10 @@ Site responsivo:
 
     .scroll-to-explore {
         display: block;
+    }
+
+
+    .project-card .img-muck-section {
+        height: 450px;
     }
 }
