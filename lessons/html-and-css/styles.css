@@ -123,6 +123,26 @@ header .header-down-arrow {
     justify-content: space-between;
 }
 
+.contact {
+    text-decoration: none;  /* tentei fazer o sublinhado dos 3 links do contact me sumirem mas não consegui*/
+    
+}
+
+a:hover {
+    color: purple;  /* tentei fazer ficar roxo quando pass o mouse nos 3 links do contact me*/
+}
+
+.footer {
+    background-image: url(assets/header-banner.png);
+    background-size: cover;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
 /*
 Conteúdo sobre media query:
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp
