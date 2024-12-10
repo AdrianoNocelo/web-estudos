@@ -123,9 +123,9 @@ header .header-down-arrow {
     justify-content: space-between;
 }
 
-.contact {
+.contact a {
     text-decoration: none;  /* tentei fazer o sublinhado dos 3 links do contact me sumirem mas não consegui*/
-    
+    color: #000000;
 }
 
 a:hover {
@@ -143,6 +143,18 @@ a:hover {
     justify-content: space-between;
    
 }
+
+.contact-info span{
+    font-size: 0.6rem;
+}
+
+.contact-info{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 /*
 Conteúdo sobre media query:
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp
