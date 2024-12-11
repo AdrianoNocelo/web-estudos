@@ -219,8 +219,11 @@ Site responsivo:
         display: block;
     }
 
-
     .project-card .img-muck-section {
         height: 450px;
+    }
+
+    .work-section .work-section-description {
+        font-size: 3.125rem;
     }
 }
